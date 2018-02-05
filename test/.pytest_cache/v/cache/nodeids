@@ -1,0 +1,5 @@
+[
+  "hello_world_test.py::test_hello_world_uses_resources",
+  "hello_world_test.py::test_hello_world_empty_resources",
+  "hello_world_test.py::test_format_salutation"
+]
