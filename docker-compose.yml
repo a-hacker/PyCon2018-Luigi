@@ -19,6 +19,9 @@ services:
     depends_on:
       - scheduler
     volumes:
+      - ./datafiles:/usr/local/luigi/datafiles
+      - ./output:/usr/local/luigi/output
+      - ./test:/usr/local/luigi/test
       - ./demo-solutions:/usr/local/luigi/dags
     command: worker
 

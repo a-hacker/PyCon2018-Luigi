@@ -19,7 +19,7 @@ substitutions = {
 
 
 def get_input_file():
-    return "usr/local/luigi/datafiles/example1.txt"
+    return "/usr/local/luigi/datafiles/example1.txt"
 
 
 class ArticleText(luigi.ExternalTask):
